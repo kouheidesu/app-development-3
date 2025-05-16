@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Route;
 //     return 'こんにちは、Laravel！';
 // });
 
-Route::get('/sample', function () {
+Route::get('/', function () {
     return view('sample.index');
 });
 

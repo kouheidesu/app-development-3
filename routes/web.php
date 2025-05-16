@@ -6,8 +6,12 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', function () {
-    return 'こんにちは、Laravel！';
+// Route::get('/', function () {
+//     return 'こんにちは、Laravel！';
+// });
+
+Route::get('/sample', function () {
+    return view('sample.index');
 });
 
 

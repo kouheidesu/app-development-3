@@ -3,8 +3,13 @@
 use Illuminate\Support\Facades\Route;
 
 
+// Route::get('/', function () {
+//     return view('index');
+// });
+
+
 Route::get('/', function () {
-    return view('index');
+    return view('index', ['name' => '耕平さん']);
 });
 
 

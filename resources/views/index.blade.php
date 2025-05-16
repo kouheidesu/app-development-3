@@ -1,102 +1,217 @@
+<?php
+$name = "耕平さん";
+$year = date("Y");
+?>
 <!DOCTYPE html>
 <html lang="ja">
 
 <head>
     <meta charset="UTF-8">
-    <title>My Stylish Website</title>
+    <title>Modern Web</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    @vite('resources/css/app.css') <!-- ViteでTailwindをビルドしている場合 -->
+    <style>
+        /* 基本リセット */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            background: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #4e54c8, #8f94fb);
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        nav a {
+            margin-left: 20px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: opacity 0.3s ease;
+        }
+
+        nav a:hover {
+            opacity: 0.8;
+        }
+
+        section {
+            padding: 80px 20px;
+            max-width: 960px;
+            margin: auto;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+            margin-bottom: 60px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            color: #4e54c8;
+            margin-bottom: 10px;
+        }
+
+        .section-title {
+            font-size: 28px;
+            margin-bottom: 30px;
+            color: #4e54c8;
+            border-left: 4px solid #4e54c8;
+            padding-left: 10px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        form {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        form button {
+            background: #4e54c8;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        form button:hover {
+            background: #6c70f5;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 14px;
+            color: #999;
+        }
+
+        /* スクロールアニメーション */
+        .fade-up {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+
+        .fade-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
 </head>
 
-<body class="bg-gradient-to-br from-blue-100 to-white text-gray-800">
+<body>
 
-    <!-- Header -->
-    <header class="p-6 bg-white shadow-md">
-        <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold">My Portfolio</h1>
-            <nav class="space-x-4">
-                <a href="#about" class="hover:text-blue-500">About</a>
-                <a href="#projects" class="hover:text-blue-500">Projects</a>
-                <a href="#contact" class="hover:text-blue-500">Contact</a>
-            </nav>
-        </div>
+    <header>
+        <h1>Modern Web</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="text-center py-24 bg-blue-50">
-        <h2 class="text-4xl font-extrabold mb-4">Welcome to My World</h2>
-        <p class="text-lg text-gray-600">Web Developer / Designer / Creator</p>
+    <section class="hero fade-up">
+        <h2>Hello, <?= htmlspecialchars($name) ?></h2>
+        <p>シンプルでおしゃれなWebアプリをPHPで構築しています。</p>
     </section>
 
-    <!-- About -->
-    <section id="about" class="py-20 px-4 max-w-4xl mx-auto">
-        <h3 class="text-3xl font-semibold mb-4">About Me</h3>
-        <p class="text-gray-700 leading-relaxed">
-            {{ "Laravelを使ってWeb開発を学習中です。" }}
-        </p>
-    </section>
-
-    <!-- Projects -->
-    <section id="projects" class="py-20 px-4 bg-gray-100">
-        <h3 class="text-3xl font-semibold mb-8 text-center">Projects</h3>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            @foreach(['Weather App', 'Blog System'] as $project)
-            <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
-                <h4 class="text-xl font-bold mb-2">{{ $project }}</h4>
-                <p class="text-gray-600">A sample project made using Laravel and Tailwind CSS.</p>
-            </div>
-            @endforeach
+    <section id="about" class="fade-up">
+        <h3 class="section-title">About Me</h3>
+        <div class="card">
+            <p>私は現在、フルスタックWebエンジニアを目指して学習中です。特にPHP、JavaScript、CSSを中心に、現代的で見た目も美しいWebアプリケーションを開発しています。</p>
         </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="py-20 px-4">
-        <h3 class="text-3xl font-semibold mb-4">Contact</h3>
-        <form class="space-y-4 max-w-xl mx-auto">
-            <input type="text" placeholder="Your Name" class="w-full p-3 border rounded" required>
-            <input type="email" placeholder="Your Email" class="w-full p-3 border rounded" required>
-            <textarea placeholder="Your Message" class="w-full p-3 border rounded" rows="4" required></textarea>
-            <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded">
-                Send Message
-            </button>
+    <section id="projects" class="fade-up">
+        <h3 class="section-title">Projects</h3>
+        <div class="card">
+            <h4>Portfolio Site</h4>
+            <p>このWebサイトも含め、自己紹介・スキル紹介をまとめたモダンなポートフォリオです。</p>
+        </div>
+        <div class="card">
+            <h4>Task Manager</h4>
+            <p>PHPとMySQLを使って開発した、日々のタスクを管理するツール。</p>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-up">
+        <h3 class="section-title">Contact</h3>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send</button>
         </form>
     </section>
 
-    <!-- Footer -->
-    <footer class="text-center py-6 text-sm text-gray-500">
-        &copy; {{ date('Y') }} My Stylish Website
+    <footer>
+        &copy; <?= $year ?> Modern Web by <?= htmlspecialchars($name) ?>
     </footer>
 
-    <!-- JSアニメーション -->
     <script>
-        window.addEventListener('scroll', () => {
-            document.querySelectorAll('section').forEach(el => {
+        // フェードアップ表示処理
+        const fadeElements = document.querySelectorAll('.fade-up');
+
+        const scrollHandler = () => {
+            fadeElements.forEach(el => {
                 const rect = el.getBoundingClientRect();
-                if (rect.top < window.innerHeight) {
-                    el.classList.add('animate-fadeIn');
+                if (rect.top < window.innerHeight - 100) {
+                    el.classList.add('visible');
                 }
             });
-        });
+        };
+
+        window.addEventListener('scroll', scrollHandler);
+        window.addEventListener('load', scrollHandler);
     </script>
 
-    <!-- Tailwindのカスタムアニメーション（別途追加が必要） -->
-    <style>
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .animate-fadeIn {
-            animation: fadeIn 0.8s ease-out forwards;
-        }
-    </style>
 </body>
 
 </html>

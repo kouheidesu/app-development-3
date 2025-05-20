@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/sample', function () {
-    return view('sample');
+    return view('sample.index');
 });
 
 // Route::get('/', function () {

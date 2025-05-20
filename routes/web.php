@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('index', ['name' => '耕平さん']);
 });
 
+Route::get('/sample', function () {
+    return view('sample');
+});
+
 // Route::get('/', function () {
 //     return print("hello world");
 // });

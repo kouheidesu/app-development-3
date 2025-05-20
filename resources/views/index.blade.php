@@ -1,3 +1,4 @@
+<!-- ファイル使用可能 -->
 @extends('layouts.app')
 
 @section('title', 'トップページ')

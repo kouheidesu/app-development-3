@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const n=document.querySelectorAll(".fade-up"),e=()=>{n.forEach(t=>{t.getBoundingClientRect().top<window.innerHeight-100&&t.classList.add("visible")})};window.addEventListener("scroll",e),e()});

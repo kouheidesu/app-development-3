@@ -8,11 +8,6 @@ Route::get('/logtest', function () {
     return 'ログ出力しました';
 });
 
-// Route::get('/', function () {
-//     return view('index');
-// });
-
-
 Route::get('/', function () {
     return view('index', ['name' => '耕平さん']);
 });
@@ -20,11 +15,6 @@ Route::get('/', function () {
 Route::get('/sample', function () {
     return view('sample');
 });
-
-// Route::get('/', function () {
-//     return print("hello world");
-// });
-
 
 Route::get('/test.php', function () {
     return 'こんばんは、Laravel！';

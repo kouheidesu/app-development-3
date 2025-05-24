@@ -7,6 +7,8 @@
 <section class="fade-up bg-white shadow-md rounded-lg p-6 mb-10">
     <h2 class="text-2xl font-semibold text-gray-800 mb-2">Hello, {{ $name }}</h2>
     <p class="text-gray-600">シンプルでおしゃれなWebアプリをPHPで構築しています。</p>
+    <p class="text-gray-600">シンプルでおしゃれなWebアプリをPHPで構築しています。</p>
+
 </section>
 
 <section id="about" class="fade-up bg-white shadow-md rounded-lg p-6 mb-10">

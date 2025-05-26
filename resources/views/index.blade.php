@@ -8,6 +8,10 @@
     <h2 class="text-2xl font-semibold text-gray-800 mb-2">Hello, {{ $name }}</h2>
     <p class="text-gray-600">シンプルでおしゃれなWebアプリをPHPで構築しています。</p>
     <p class="text-gray-600">シンプルでおしゃれなWebアプリをPHPで構築しています。</p>
+    <p class="text-gray-600">シンプルでおしゃれなWebアプリをPHPで構築しています。</p>
+
+    <p class="text-gray-600">シンプルでおしゃれなWebアプリをPHPで構築しています。</p>
+
 
 </section>
 

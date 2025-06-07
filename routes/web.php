@@ -8,7 +8,7 @@ Route::get('/logtest', function () {
     Log::debug('ログテスト：これは書かれていますか？');
     return 'ログ出力しました';
 });
-
+// これはcontrollerを返す
 Route::get('/', [GagController::class, 'index']);
 Route::post('/gag', [GagController::class, 'showGag']);
 
@@ -16,6 +16,7 @@ Route::post('/gag', [GagController::class, 'showGag']);
 //     return view('index', ['name' => '耕平さん']);
 // });
 
+// これはviewsを返す
 Route::get('/sample', function () {
     return view('sample');
 });

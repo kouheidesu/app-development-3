@@ -1,3 +1,5 @@
+// 水色がオブジェクト？黄色がプロパティ？
+
 document.addEventListener('DOMContentLoaded', () => {
     const fadeElements = document.querySelectorAll('.fade-up');
 

@@ -1,6 +1,6 @@
 // 水色がオブジェクト？黄色がプロパティ？
 
-//
+// documentオブジェクトのaddEentListerメソッド使用してDOMContentLoadedプロパティに以下処理行う
 document.addEventListener('DOMContentLoaded', () => {
     //
     const fadeElements = document.querySelectorAll('.fade-up');

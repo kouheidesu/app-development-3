@@ -1,3 +1,5 @@
+<!-- ！！！！！！！このファイルは使用していない -->
+
 @extends('layouts.app')
 
 @section('title', 'トップページ')

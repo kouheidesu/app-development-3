@@ -1,6 +1,8 @@
 // 水色がオブジェクト？黄色がプロパティ？
 
+//
 document.addEventListener('DOMContentLoaded', () => {
+    //
     const fadeElements = document.querySelectorAll('.fade-up');
 
     const scrollHandler = () => {
@@ -15,3 +17,4 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', scrollHandler);
     scrollHandler(); // 初期表示
 });
+

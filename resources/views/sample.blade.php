@@ -1,3 +1,5 @@
+<!-- このファイルは使用していない -->
+
 <!DOCTYPE html>
 <html lang="ja">
 

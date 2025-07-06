@@ -13,14 +13,14 @@
 
         <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">🎉 一発ギャグマシン 🎉</h1>
 
+        <img src="{{ $image }}" alt="ギャグ画像" class="mx-auto mb-4 w-full max-w-xs rounded-xl shadow" />
+        <h1 class="text-2xl font-bold text-gray-800 mb-6">🎉 一発ギャグマシン 🎉</h1>
         @if (isset($gag))
-        <div class="mb-6 p-3 sm:p-4 bg-yellow-100 rounded-lg shadow text-lg sm:text-xl font-medium text-gray-800 animate-bounce">
+        <div class="p-4 bg-yellow-100 rounded-lg text-lg font-medium text-gray-800 animate-bounce">
             {{ $gag }}
         </div>
         @endif
 
-        <!-- <img src="{{ asset('images/it-engineer.png') }}" alt="ロゴ" class="w-24 h-auto mx-auto mb-4"> -->
-        <img src="https://app-development-3deve-production.up.railway.app/images/it-engineer.png" alt="ロゴ">
 
         <form method="POST" action="/gag">
             @csrf

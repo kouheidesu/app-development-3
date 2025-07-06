@@ -10,7 +10,9 @@
 
 <body class="bg-gradient-to-r from-pink-100 via-yellow-100 to-green-100 min-h-screen flex items-center justify-center px-4">
     <div class="bg-white shadow-xl rounded-2xl p-4 sm:p-8 w-full max-w-md text-center">
-        <img src="{{ asset('images/it-engineer.png') }}" alt="ロゴ" class="w-24 h-auto mx-auto mb-4">
+        <!-- <img src="{{ asset('images/it-engineer.png') }}" alt="ロゴ" class="w-24 h-auto mx-auto mb-4"> -->
+        <img src="https://app-development-3deve-production.up.railway.app/images/it-engineer.png" alt="ロゴ">
+
 
         <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">🎉 一発ギャグマシン 🎉</h1>
 

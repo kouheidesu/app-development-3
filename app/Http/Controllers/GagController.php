@@ -44,6 +44,42 @@ class GagController extends Controller
             'text' => '犬が「ワンチャンあるかも」と言った！',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
         ],
+        [
+            'text' => 'カエルがジャンプした先が回転寿司！',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_kaeru.png',
+        ],
+        [
+            'text' => 'ゴリラがバナナでスベった！バナナだけに！',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_gorira.png',
+        ],
+        [
+            'text' => 'イカが怒ってイカり肩！',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ika.png',
+        ],
+        // [
+        //     'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        // ],
+        // [
+        //     'text' => 'ペンギンが冷房つけて「寒っ！」って言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        // ],
+        // [
+        //     'text' => '寿司が自分を握って自己満足！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        // ],
+        // [
+        //     'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        // ],
+        // [
+        //     'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        // ],
+        // [
+        //     'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        // ],
     ];
 
 

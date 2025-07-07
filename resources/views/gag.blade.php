@@ -10,13 +10,19 @@
 
 <body class="bg-gradient-to-r from-pink-100 via-yellow-100 to-green-100 min-h-screen flex items-center justify-center px-4">
     <div class="bg-white shadow-xl rounded-2xl p-4 sm:p-8 w-full max-w-md text-center">
+
         <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">🎉 一発ギャグマシン 🎉</h1>
 
+        @if (isset($image) && $image)
+        <img src="{{ $image }}" alt="ギャグ画像" class="mx-auto mb-6 w-full max-w-xs rounded-xl shadow" />
+        @endif
+
         @if (isset($gag))
-        <div class="mb-6 p-3 sm:p-4 bg-yellow-100 rounded-lg shadow text-lg sm:text-xl font-medium text-gray-800 animate-bounce">
+        <div class="mx-auto mb-3 p-4 bg-yellow-100 rounded-lg text-lg font-medium text-gray-800 animate-bounce">
             {{ $gag }}
         </div>
         @endif
+
 
         <form method="POST" action="/gag">
             @csrf

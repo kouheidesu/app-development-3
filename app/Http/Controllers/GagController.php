@@ -56,10 +56,10 @@ class GagController extends Controller
             'text' => 'イカが怒ってイカり肩！',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ika.png',
         ],
-        // [
-        //     'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        // ],
+        [
+            'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ramen.png',
+        ],
         // [
         //     'text' => 'ペンギンが冷房つけて「寒っ！」って言った！',
         //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',

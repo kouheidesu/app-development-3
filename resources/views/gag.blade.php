@@ -18,7 +18,7 @@
         @endif
 
         @if (isset($gag))
-        <div class="mx-auto mb-2 p-4 bg-yellow-100 rounded-lg text-lg font-medium text-gray-800 animate-bounce">
+        <div class="mx-auto mb-3 p-4 bg-yellow-100 rounded-lg text-lg font-medium text-gray-800 animate-bounce">
             {{ $gag }}
         </div>
         @endif

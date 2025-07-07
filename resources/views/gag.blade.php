@@ -14,7 +14,7 @@
         <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">🎉 一発ギャグマシン 🎉</h1>
 
         @if (isset($image) && $image)
-        <img src="{{ $image }}" alt="ギャグ画像" />
+        <img src="{{ $image }}" alt="ギャグ画像" class="mx-auto mb-6 w-full max-w-xs rounded-xl shadow" />
         @endif
 
         @if (isset($gag))

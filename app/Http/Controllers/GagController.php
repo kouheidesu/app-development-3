@@ -103,4 +103,5 @@ class GagController extends Controller
             'image' => $randomGag['image'],
         ]);
     }
+    public function sample() {}
 }

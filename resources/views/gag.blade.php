@@ -24,6 +24,8 @@
         @endif
 
 
+
+
         <form method="POST" action="/gag">
             @csrf
             <button type="submit" class="w-full sm:w-auto bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-6 rounded-xl transition-all duration-300">

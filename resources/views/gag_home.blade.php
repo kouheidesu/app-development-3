@@ -8,6 +8,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
+<body class="flex items-center justify-center h-screen bg-gray-100">
+    <a href="{{ route('gag') }}">
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            ギャグページへ
+        </button>
+    </a>
+</body>
 
 
 </html>

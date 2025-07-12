@@ -54,7 +54,7 @@ class GagController extends Controller
         ],
         [
             'text' => 'イカが怒ってイカり肩！',
-            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ika.png',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ika2.png',
         ],
         [
             'text' => 'ラーメンがすすりすぎて宇宙へワープ！',

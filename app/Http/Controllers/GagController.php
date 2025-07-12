@@ -50,7 +50,7 @@ class GagController extends Controller
         ],
         [
             'text' => 'ゴリラがバナナでスベった！バナナだけに！',
-            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_gorira.png',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_gorira2.png',
         ],
         [
             'text' => 'イカが怒ってイカり肩！',

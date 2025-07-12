@@ -80,6 +80,95 @@ class GagController extends Controller
             'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
         ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+        // [
+        //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        // ],
+
     ];
 
 

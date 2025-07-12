@@ -46,19 +46,19 @@ class GagController extends Controller
         ],
         [
             'text' => 'カエルがジャンプした先が回転寿司！',
-            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_kaeru.png',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_kaeru2.png',
         ],
         [
             'text' => 'ゴリラがバナナでスベった！バナナだけに！',
-            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_gorira.png',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_gorira2.png',
         ],
         [
             'text' => 'イカが怒ってイカり肩！',
-            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ika.png',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ika2.png',
         ],
         [
             'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
-            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ramen.png',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ramen2.png',
         ],
         // [
         //     'text' => 'ペンギンが冷房つけて「寒っ！」って言った！',
@@ -103,4 +103,5 @@ class GagController extends Controller
             'image' => $randomGag['image'],
         ]);
     }
+    public function sample() {}
 }

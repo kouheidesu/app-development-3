@@ -68,10 +68,10 @@ class GagController extends Controller
             'text' => '給料は、希望と共に振り込まれて、絶望と共に消えていく。',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_zetubou.png',
         ],
-        // [
-        //     'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        // ],
+        [
+            'text' => '住宅ローンって、人生という名の手錠だよね。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_homeroan.png',
+        ],
         // [
         //     'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
         //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',

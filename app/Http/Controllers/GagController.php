@@ -62,7 +62,7 @@ class GagController extends Controller
         ],
         [
             'text' => 'ペンギンが冷房つけて「寒っ！」って言った！',
-            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_pengin.png',
         ],
         // [
         //     'text' => '寿司が自分を握って自己満足！',

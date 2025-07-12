@@ -17,10 +17,14 @@
         <img src="{{ $image }}" alt="ギャグ画像" class="mx-auto mb-6 w-full max-w-xs rounded-xl shadow" />
         @endif
 
-        @if (isset($gag))
+        @if (isset($text))
         <div class="mx-auto mb-3 p-4 bg-yellow-100 rounded-lg text-lg font-medium text-gray-800 animate-bounce">
-            {{ $gag }}
+            {{ $text }}
         </div>
+        @endif
+
+        @if (!empty($reference))
+        <p>{{ $reference }}風</p>
         @endif
 
 

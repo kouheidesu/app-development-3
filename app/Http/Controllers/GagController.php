@@ -43,10 +43,12 @@ class GagController extends Controller
         [
             'text' => '犬が「ワンチャンあるかも」と言った！',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+            'reference' => '',
         ],
         [
             'text' => 'カエルがジャンプした先が回転寿司！',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_kaeru2.png',
+            'reference' => 'レオナルド・ダ・ヴィンチ',
         ],
         [
             'text' => 'ゴリラがバナナでスベった！バナナだけに！',
@@ -188,8 +190,9 @@ class GagController extends Controller
         $randomGag = $this->gags[array_rand($this->gags)];
         // $randomGag変数を渡す&gag.blade.phpを表示
         return view('gag', [
-            'gag' => $randomGag['text'],
+            'text' => $randomGag['text'],
             'image' => $randomGag['image'],
+            'reference' => $randomGag['reference'] ?? null,
         ]);
     }
     public function sample() {}

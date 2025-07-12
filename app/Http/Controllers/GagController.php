@@ -76,10 +76,10 @@ class GagController extends Controller
             'text' => '自販機の釣り銭に運命感じるようになったら、もう末期。',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_automachine.png',
         ],
-        // [
-        //     'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        // ],
+        [
+            'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+        ],
     ];
 
 

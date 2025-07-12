@@ -72,10 +72,10 @@ class GagController extends Controller
             'text' => '住宅ローンって、人生という名の手錠だよね。',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_homeroan.png',
         ],
-        // [
-        //     'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        // ],
+        [
+            'text' => '自販機の釣り銭に運命感じるようになったら、もう末期。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_automachine.png',
+        ],
         // [
         //     'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
         //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',

@@ -64,10 +64,10 @@ class GagController extends Controller
             'text' => 'ペンギンが冷房つけて「寒っ！」って言った！',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_pengin.png',
         ],
-        // [
-        //     'text' => '寿司が自分を握って自己満足！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        // ],
+        [
+            'text' => '給料は、希望と共に振り込まれて、絶望と共に消えていく。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_zetubou.png',
+        ],
         // [
         //     'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
         //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',

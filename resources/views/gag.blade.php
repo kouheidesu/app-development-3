@@ -143,17 +143,17 @@
             // 1. 白いカードを揺らす
             card.classList.add('shake');
 
-            // 2. 少し遅れてロケット発射
+            // 2. 約2秒後にロケット発射
             setTimeout(() => {
                 rocket.style.opacity = 1;
                 rocket.classList.add('rocket-launch');
-            }, 500);
+            }, 2000);
 
-            // 3. 振動停止＆フォーム送信（1.8秒後）
+            // 3. ロケット発射後にフォーム送信（合計2.8秒後）
             setTimeout(() => {
                 card.classList.remove('shake');
                 document.getElementById('gagForm').submit();
-            }, 1800);
+            }, 2800);
         }
     </script>
 </body>

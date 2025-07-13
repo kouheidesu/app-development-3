@@ -48,39 +48,47 @@ class GagController extends Controller
         [
             'text' => 'カエルがジャンプした先が回転寿司！',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_kaeru2.png',
-            'reference' => 'レオナルド・ダ・ヴィンチ',
+            'reference' => 'ピカソ',
         ],
         [
             'text' => 'ゴリラがバナナでスベった！バナナだけに！',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_gorira2.png',
+            'reference' => 'レオナルド・ダ・ヴィンチ',
         ],
         [
             'text' => 'イカが怒ってイカり肩！',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ika2.png',
+            'reference' => 'ムンク',
         ],
         [
             'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ramen3.png',
+            'reference' => 'ゴーギャン',
         ],
         [
             'text' => 'ペンギンが冷房つけて「寒っ！」って言った！',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_pengin.png',
+            'reference' => 'ミケランジェロ',
         ],
         [
             'text' => '給料は、希望と共に振り込まれて、絶望と共に消えていく。',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_zetubou.png',
+            'reference' => 'フェルメール',
         ],
         [
             'text' => '住宅ローンって、人生という名の手錠だよね。',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_homeroan.png',
+            'reference' => 'ドラクロワ',
         ],
         [
             'text' => '自販機の釣り銭に運命感じるようになったら、もう末期。',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_automachine.png',
+            'reference' => 'ベラスケス',
         ],
         [
             'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
+            'reference' => 'ヒエロニムス・ボス',
         ],
         // [
         //     'text' => '宝くじ当たったら人生変わるって思ってる時点で、もう人生終わってる説。',

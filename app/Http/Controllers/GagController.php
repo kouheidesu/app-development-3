@@ -90,11 +90,11 @@ class GagController extends Controller
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_takarakugi.png',
             'reference' => 'ヒエロニムス・ボス',
         ],
-                [
+        [
             'text' => '家賃のために生きてるのか、生きるために家賃払ってるのか分からん。',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_homefare.png',
             'reference' => 'ゴッホ',
-        // ],
+        ],
         //         [
         //     'text' => '犬が「ワンチャンあるかも」と言った！',
         //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',

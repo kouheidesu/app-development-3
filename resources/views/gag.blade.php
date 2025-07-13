@@ -17,18 +17,19 @@
         <img src="{{ $image }}" alt="ギャグ画像" class="mx-auto mb-6 w-full max-w-xs rounded-xl shadow" />
         @endif
 
+        @if (!empty($reference))
+        <div class="w-full max-w-xs mx-auto mb-6 text-right pr-2">
+            <span class="inline-block text-sm text-gray-600 bg-white/80 px-2 py-1 rounded shadow">
+                {{ $reference }}風
+            </span>
+        </div>
+        @endif
+
         @if (isset($text))
         <div class="mx-auto mb-3 p-4 bg-yellow-100 rounded-lg text-lg font-medium text-gray-800 animate-bounce">
             {{ $text }}
         </div>
         @endif
-
-        @if (!empty($reference))
-        <p>{{ $reference }}風</p>
-        @endif
-
-
-
 
         <form method="POST" action="/gag">
             @csrf

@@ -18,7 +18,7 @@
         @endif
 
         @if (!empty($reference))
-        <div class="w-full max-w-xs mx-auto mb-6 text-right pr-2">
+        <div class="w-full max-w-xs mx-auto mb-4 text-right pr-2">
             <span class="inline-block text-sm text-gray-600 bg-white/80 px-2 py-1 rounded shadow">
                 {{ $reference }}風
             </span>

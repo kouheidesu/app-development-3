@@ -116,7 +116,7 @@
         @endif
 
         @if (isset($text))
-        <div class="mx-auto mb-3 p-4 bg-yellow-100 rounded-lg text-lg font-medium text-gray-800">
+        <div class="mx-auto mb-3 p-4 bg-yellow-100 rounded-lg text-lg font-medium text-gray-800 animate-bounce">
             {{ $text }}
         </div>
         @endif

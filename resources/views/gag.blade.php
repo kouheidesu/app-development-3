@@ -14,11 +14,11 @@
         <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">🎉 一発ギャグマシン 🎉</h1>
 
         @if (isset($image) && $image)
-        <img src="{{ $image }}" alt="ギャグ画像" class="mx-auto mb-6 w-full max-w-xs rounded-xl shadow" />
+        <img src="{{ $image }}" alt="ギャグ画像" class="mx-auto mb-4 w-full max-w-xs rounded-xl shadow" />
         @endif
 
         @if (!empty($reference))
-        <div class="w-full max-w-xs mx-auto mb-4 text-right pr-2">
+        <div class="w-full max-w-xs mx-auto mb-7 text-right pr-2">
             <span class="inline-block text-sm text-gray-600 bg-white/80 px-2 py-1 rounded shadow">
                 {{ $reference }}風
             </span>

@@ -65,17 +65,17 @@ class GagController extends Controller
         [
             'text' => '貯金ゼロで「人生を楽しんでる」って、ただの現実逃避じゃない？',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_tyokin_zero.png',
-            'reference' => 'ピエール＝オーギュスト・ルノワール',
+            'reference' => 'ルノワール',
         ],
         [
             'text' => 'FXで一夜にして稼いだ。別の誰かが。',
-            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-            'reference' => 'フィンセント・ファン・ゴッホ',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_fx.png',
+            'reference' => 'ゴッホ',
         ],
         [
             'text' => '金がないと人が離れ、金があると虫が寄ってくる。',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_money_effect.png',
-            'reference' => 'フィンセント・ファン・ゴッホ',
+            'reference' => 'ゴッホ',
         ],
         [
             'text' => 'カードの請求額、ホラー映画より怖い。',
@@ -85,13 +85,13 @@ class GagController extends Controller
         [
             'text' => '給与明細がミステリー小説になってる。どこに消えた？俺の手取り。',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_mistery.png',
-            'reference' => 'ピエール＝オーギュスト・ルノワール',
+            'reference' => 'ルノワール',
         ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
+        [
+            'text' => '「人生、お金じゃない」って言えるのは、だいたい金持ち。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_rich.png',
+            'reference' => 'ルノワール',
+        ],
         //         [
         //     'text' => '犬が「ワンチャンあるかも」と言った！',
         //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',

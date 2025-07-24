@@ -6,39 +6,6 @@ use Illuminate\Http\Request;
 
 class GagController extends Controller
 {
-    // private $gags = [
-    //     '犬が「ワンチャンあるかも」と言った！',
-    //     'カエルがジャンプした先が回転寿司！',
-    //     'ゴリラがバナナでスベった！バナナだけに！',
-    //     'イカが怒ってイカり肩！',
-    //     'ラーメンがすすりすぎて宇宙へワープ！',
-    //     'ペンギンが冷房つけて「寒っ！」って言った！',
-    //     '寿司が自分を握って自己満足！',
-    //     '猫がキャットフード食べて「にゃ〜イス！」',
-    //     'ゾウが鼻で書道して「象形文字」完成！',
-    //     'カラスが黒板でキーキー！教育熱心！',
-    //     'サルがバナナにプロポーズ！「君にむけて熟したんだ」',
-    //     'タコがボンジュールって言った！オクトパリジャン！',
-    //     'パンダが白黒つけようと裁判官に！',
-    //     'カニが横から失礼！って言いながら真っ直ぐ歩く！',
-    //     'ウサギがぴょんぴょんしすぎて月に到着！',
-    //     'カメがレースで優勝！相手が寝坊！',
-    //     'ハトが豆鉄砲食らって「想定内です」！',
-    //     'サメがフカく反省してる…フカだけに！',
-    //     'タヌキが変身しようとしてスマホ見てた！',
-    //     'イヌが「ワンチャン」ってLINEスタンプ作ってる！',
-    //     'トリが朝寝坊して「コケコッコー…ごめん」',
-    //     'カエルが自分の声で目覚めた！ケロ目覚まし！',
-    //     '馬が走って「今日もギャロップ！」',
-    //     'アリが団体行動しすぎて渋滞発生！',
-    //     'ヘビが長電話してコードと間違われた！',
-    //     'ハムスターが回し車で発電！エコ！',
-    //     'モグラがサングラスして地上デビュー！',
-    //     'ヒツジが眠れずに自分を数えてる！',
-    //     'ライオンがカラオケで「ガオ〜ン！」と熱唱！',
-    //     'イルカがジャンプしてWi-Fi拾った！',
-    // ];
-
     private $gags = [
         [
             'text' => '犬が「ワンチャンあるかも」と言った！',
@@ -95,6 +62,96 @@ class GagController extends Controller
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_homefare.png',
             'reference' => 'ゴッホ',
         ],
+        [
+            'text' => '貯金ゼロで「人生を楽しんでる」って、ただの現実逃避じゃない？',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_tyokin_zero.png',
+            'reference' => 'ピエール＝オーギュスト・ルノワール',
+        ],
+        [
+            'text' => 'FXで一夜にして稼いだ。別の誰かが。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+            'reference' => 'フィンセント・ファン・ゴッホ',
+        ],
+        [
+            'text' => '金がないと人が離れ、金があると虫が寄ってくる。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_money_effect.png',
+            'reference' => 'フィンセント・ファン・ゴッホ',
+        ],
+        [
+            'text' => 'カードの請求額、ホラー映画より怖い。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_holler.png',
+            'reference' => 'ジェームズ・アンソール',
+        ],
+        [
+            'text' => '給与明細がミステリー小説になってる。どこに消えた？俺の手取り。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_mistery.png',
+            'reference' => 'ピエール＝オーギュスト・ルノワール',
+        ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
         //         [
         //     'text' => '犬が「ワンチャンあるかも」と言った！',
         //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',

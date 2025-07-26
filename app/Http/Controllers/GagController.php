@@ -92,26 +92,26 @@ class GagController extends Controller
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_rich.png',
             'reference' => 'ルノワール',
         ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
+        [
+            'text' => 'お金？あるよ。墓まで持っていく予定さ。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_grave.png',
+            'reference' => 'ルノワール',
+        ],
+        [
+            'text' => 'お金持ちは「貧乏って大変そうだね」って言うけど、火の中にいる人に「熱そうだね」って言ってるのと同じ。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_rich_talk.png',
+            'reference' => 'ジャン＝フランソワ・ラファエリ',
+        ],
+        [
+            'text' => '資産運用？死神とポーカーしてるようなもんさ。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_deather_poker.png',
+            'reference' => 'レンブラント',
+        ],
+        [
+            'text' => '金に魂売ったけど、安売りだったらしい。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_soul_buy.png',
+            'reference' => 'フランシスコ・デ・ゴヤ',
+        ],
         //         [
         //     'text' => '犬が「ワンチャンあるかも」と言った！',
         //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',

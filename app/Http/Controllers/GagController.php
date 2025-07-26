@@ -152,51 +152,51 @@ class GagController extends Controller
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_siner.png',
             'reference' => 'カミーユ・ピサロ',
         ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
+        [
+            'text' => '財布はまるで迷路。入ったお金が二度と出てこないんだ。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_maze.png',
+            'reference' => 'ノーマン・ロックウェル',
+        ],
+        [
+            'text' => '貯金は性格を表すって言うけど、僕の貯金箱、ずっと空っぽで楽天的。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_optimistic.png',
+            'reference' => 'ノーマン・ロックウェル',
+        ],
+        [
+            'text' => '貯金箱は開けるまで夢が詰まってる。中身は…小銭の現実。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_little_money.png',
+            'reference' => 'ジェシー・ウィルコックス・スミス',
+        ],
+        [
+            'text' => '資産運用？俺は“とうもろこし”で分散してる。右手も左手もな！',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_corn.png',
+            'reference' => 'フィリップ・アレクサンダー・デ・ラースロー',
+        ],
+        [
+            'text' => '“パンがなければケーキを食べればいい”って？こっちは“お金がなければ空気を食べればいい”状態だよ！',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_air_eat.png',
+            'reference' => 'オノレ・ドーミエ',
+        ],
+        [
+            'text' => '貯金箱の中に夢を詰めた。硬貨は見当たらないけどね。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_no_coin.png',
+            'reference' => 'ジャン＝バティスト・グルーズ',
+        ],
+        [
+            'text' => 'この貯金袋？中身は…夢と希望（あと1円）。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_money_bineele.png',
+            'reference' => 'グラント・ウッド',
+        ],
+        [
+            'text' => '金運アップの秘訣？古着から“福袋”を縫い上げることさ！',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_sew.png',
+            'reference' => 'ノーマン・ロックウェル',
+        ],
+        [
+            'text' => '投資のコツ？“損しない”より“損したと気づかない”ことさ。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_invest_knowhow.png',
+            'reference' => 'ジョン・フレンチ・スローン',
+        ],
         //         [
         //     'text' => '犬が「ワンチャンあるかも」と言った！',
         //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',

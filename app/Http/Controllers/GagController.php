@@ -197,61 +197,61 @@ class GagController extends Controller
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_invest_knowhow.png',
             'reference' => 'ジョン・フレンチ・スローン',
         ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
+        [
+            'text' => '貯金が1枚の金貨だけ？でも彼いわく、“これ、僕の全財産であり、人生の輝き！”',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_one_coin.png',
+            'reference' => 'ウィリアム・アドルフ・ブグロー',
+        ],
+        [
+            'text' => 'コインの使い道？…うーん、パンにするか、記念にとっとくか…迷ってる間にインフレきそう！',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_coin_infre.png',
+            'reference' => 'ピエール＝オーギュスト・ルノワール',
+        ],
+        [
+            'text' => 'お年玉…全部500円玉だったけど、積み上げたら“資産”っぽく見えてきた！',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_five_houndreds.png',
+            'reference' => 'メアリー・カサット',
+        ],
+        [
+            'text' => '貯金のコツ？毎晩コインを積んで“資産のタワー”作ってるんだ。崩れなければ景気も安定！',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_coin_tower.png',
+            'reference' => 'ジャン＝フランソワ・ミレー',
+        ],
+        [
+            'text' => 'この金貨、ピカピカすぎて鏡代わりにしてるんだ。“自己投資”ってやつさ！',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_coin_clean.png',
+            'reference' => 'カミーユ・ピサロ',
+        ],
+        [
+            'text' => 'この金貨、使うより眺める方が“コスパ高い”気がしてきた！',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_coin_see.png',
+            'reference' => 'ギュスターヴ・クールベ',
+        ],
+        [
+            'text' => '“貯金箱に投資してる”って言ったら、みんな笑ってたけど…今日も利子じゃなくて“利ス”が鳴いてるよ。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_risu.png',
+            'reference' => 'ピエール・ボナール',
+        ],
+        [
+            'text' => '“お金で幸せは買えない”って聞いたから、試しに“笑顔”だけ買ってみたら…レジの人が無料でくれた！',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_laugh_free.png',
+            'reference' => 'エヴァ・ゴンザレス',
+        ],
+        [
+            'text' => '“お金は天下の回りもの”って言うから財布を振ってみたけど…音すら回ってこなかった。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_no_sound.png',
+            'reference' => 'トマ・クチュール',
+        ],
+        [
+            'text' => '最近、ATMに“いつもありがとうございます”って言われるけど…こっちは“貯金ゼロ”で感謝されるだけの存在です。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_thanks_atm.png',
+            'reference' => 'ジョージ・ルクス',
+        ],
+        [
+            'text' => '“お金がない！”って叫んだら、机の引き出しから1円玉が出てきた。…まさかの“金の亡霊”登場。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_one_money.png',
+            'reference' => 'ホノレ・ドーミエ',
+        ],
         //         [
         //     'text' => '犬が「ワンチャンあるかも」と言った！',
         //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',

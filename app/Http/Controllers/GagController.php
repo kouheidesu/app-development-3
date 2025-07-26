@@ -7,36 +7,36 @@ use Illuminate\Http\Request;
 class GagController extends Controller
 {
     private $gags = [
-        [
-            'text' => '犬が「ワンチャンあるかも」と言った！',
-            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-            'reference' => '',
-        ],
-        [
-            'text' => 'カエルがジャンプした先が回転寿司！',
-            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_kaeru2.png',
-            'reference' => 'ピカソ',
-        ],
-        [
-            'text' => 'ゴリラがバナナでスベった！バナナだけに！',
-            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_gorira2.png',
-            'reference' => 'レオナルド・ダ・ヴィンチ',
-        ],
-        [
-            'text' => 'イカが怒ってイカり肩！',
-            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ika2.png',
-            'reference' => 'ムンク',
-        ],
-        [
-            'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
-            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ramen3.png',
-            'reference' => 'ゴーギャン',
-        ],
-        [
-            'text' => 'ペンギンが冷房つけて「寒っ！」って言った！',
-            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_pengin.png',
-            'reference' => 'ミケランジェロ',
-        ],
+        // [
+        // 'text' => '犬が「ワンチャンあるかも」と言った！',
+        // 'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        // 'reference' => '',
+        // ],
+        // [
+        // 'text' => 'カエルがジャンプした先が回転寿司！',
+        // 'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_kaeru2.png',
+        // 'reference' => 'ピカソ',s
+        // ],
+        // [
+        //     'text' => 'ゴリラがバナナでスベった！バナナだけに！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_gorira2.png',
+        //     'reference' => 'レオナルド・ダ・ヴィンチ',
+        // ],
+        // [
+        //     'text' => 'イカが怒ってイカり肩！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ika2.png',
+        //     'reference' => 'ムンク',
+        // ],
+        // [
+        //     'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ramen3.png',
+        //     'reference' => 'ゴーギャン',
+        // ],
+        // [
+        //     'text' => 'ペンギンが冷房つけて「寒っ！」って言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_pengin.png',
+        //     'reference' => 'ミケランジェロ',
+        // ],
         [
             'text' => '給料は、希望と共に振り込まれて、絶望と共に消えていく。',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_zetubou.png',

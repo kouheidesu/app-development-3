@@ -147,6 +147,156 @@ class GagController extends Controller
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dream_boy.png',
             'reference' => 'ノーマン・ロックウェル',
         ],
+        [
+            'text' => 'この1円、きっとプレミアついてる…はず！老眼でも信じたい投資価値！',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_siner.png',
+            'reference' => 'カミーユ・ピサロ',
+        ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
+        //         [
+        //     'text' => '犬が「ワンチャンあるかも」と言った！',
+        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
+        //     'reference' => '',
+        // ],
         //         [
         //     'text' => '犬が「ワンチャンあるかも」と言った！',
         //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',

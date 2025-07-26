@@ -112,41 +112,41 @@ class GagController extends Controller
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_soul_buy.png',
             'reference' => 'フランシスコ・デ・ゴヤ',
         ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
+        [
+            'text' => 'お金は使い方次第で、ただの紙にも、未来への切符にもなる。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_use_way.png',
+            'reference' => 'ルノワール',
+        ],
+        [
+            'text' => 'お金は天下の回りもの。でも僕の財布だけ、回避してるらしい。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_aroud_world.png',
+            'reference' => 'ルノワール',
+        ],
+        [
+            'text' => 'お金は数えるより、感謝した方が増えるらしい。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_thanks.png',
+            'reference' => 'ルノワール',
+        ],
+        [
+            'text' => 'この豚、貯金箱って言うけど…中身よりフォルムが可愛いから許した。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_money_box.png',
+            'reference' => 'ジャン＝バティスト・グルーズ',
+        ],
+        [
+            'text' => '俺の貯金、笑顔と空気だけは詰まってる',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_laugh.png',
+            'reference' => 'エドゥアールト・フォン・グリュッツナー',
+        ],
+        [
+            'text' => '貯金はないけど、癒し担当としては資産価値あるって言われたニャ。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_cure_cut.png',
+            'reference' => 'ウィリアム・アドルフ・ブグロー',
+        ],
+        [
+            'text' => '“貯金ゼロ”と笑う君へ。僕の貯金、チョコの包み紙より軽いけど夢は重いよ。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dream_boy.png',
+            'reference' => 'ノーマン・ロックウェル',
+        ],
         //         [
         //     'text' => '犬が「ワンチャンあるかも」と言った！',
         //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',

@@ -7,36 +7,6 @@ use Illuminate\Http\Request;
 class GagController extends Controller
 {
     private $gags = [
-        // [
-        // 'text' => '犬が「ワンチャンあるかも」と言った！',
-        // 'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        // 'reference' => '',
-        // ],
-        // [
-        // 'text' => 'カエルがジャンプした先が回転寿司！',
-        // 'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_kaeru2.png',
-        // 'reference' => 'ピカソ',s
-        // ],
-        // [
-        //     'text' => 'ゴリラがバナナでスベった！バナナだけに！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_gorira2.png',
-        //     'reference' => 'レオナルド・ダ・ヴィンチ',
-        // ],
-        // [
-        //     'text' => 'イカが怒ってイカり肩！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ika2.png',
-        //     'reference' => 'ムンク',
-        // ],
-        // [
-        //     'text' => 'ラーメンがすすりすぎて宇宙へワープ！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_ramen3.png',
-        //     'reference' => 'ゴーギャン',
-        // ],
-        // [
-        //     'text' => 'ペンギンが冷房つけて「寒っ！」って言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_pengin.png',
-        //     'reference' => 'ミケランジェロ',
-        // ],
         [
             'text' => '給料は、希望と共に振り込まれて、絶望と共に消えていく。',
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_zetubou.png',
@@ -252,36 +222,36 @@ class GagController extends Controller
             'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_one_money.png',
             'reference' => 'ホノレ・ドーミエ',
         ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
-        //         [
-        //     'text' => '犬が「ワンチャンあるかも」と言った！',
-        //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',
-        //     'reference' => '',
-        // ],
+        [
+            'text' => '“お金持ちになった夢を見た”って話したら、枕が“それ、利息じゃなくて寝息ね”って突っ込んできた。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_interest.png',
+            'reference' => 'ウジェーヌ・カリエール',
+        ],
+        [
+            'text' => '“財布が太った！”と思ったら…レシートとポイントカードでカロリーオーバーだった。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_krol_over.png',
+            'reference' => 'バスティアン＝ルパージュ',
+        ],
+        [
+            'text' => '“今月は貯金が目標です！”って言った5秒後に、ネットで“タイムセール”をクリックした。クリックは早いけど、貯金は遠い。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_click_speed.png',
+            'reference' => 'メアリー・ロジャース・ウィリアムズ',
+        ],
+        [
+            'text' => '“お金が逃げていく！”って嘆いたら、母に“それはただの支払いです”って言われた。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_pay.png',
+            'reference' => 'レオン・ローマン',
+        ],
+        [
+            'text' => '“1円を笑う者は1円に泣く”…だから今日も、落ちてた1円を“投資案件”って呼んで拾った。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_pick_up.png',
+            'reference' => 'ジョゼフ・イスラエルス',
+        ],
+        [
+            'text' => '“給料日だ！”ってテンション上がったけど、振り込まれたのは“希望”よりも“手取りの現実”だった。',
+            'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_salary.png',
+            'reference' => 'ルイ・アンクタン',
+        ],
         //         [
         //     'text' => '犬が「ワンチャンあるかも」と言った！',
         //     'image' => 'https://app-development-3deve-production.up.railway.app/images/gag_app_dog.png',

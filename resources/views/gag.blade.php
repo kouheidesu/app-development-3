@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-adsense-account" content="ca-pub-1120353335079414">
     <title>一発ギャグマシン</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -143,7 +144,7 @@
             // 1. 白いカードを揺らす
             card.classList.add('shake');
 
-            // 2. 約2秒後にロケット発射
+            // 2. 約2秒後にロケット発射s
             setTimeout(() => {
                 rocket.style.opacity = 1;
                 rocket.classList.add('rocket-launch');
